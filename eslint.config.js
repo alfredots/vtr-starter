@@ -25,7 +25,7 @@ export default [
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off'
     },
-    ignores: ['node_modules/**']
+    ignores: ['node_modules/**', 'test/setup.ts']
   },
   prettier
 ];
