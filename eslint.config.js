@@ -23,9 +23,10 @@ export default [
     },
     rules: {
       'react/react-in-jsx-scope': 'off',
-      'react/jsx-uses-react': 'off'
+      'react/jsx-uses-react': 'off',
+      'typescript-eslint/no-unsafe-call': 'off'
     },
-    ignores: ['node_modules/**', 'test/setup.ts']
+    ignores: ['node_modules/**', '.test/setup.ts']
   },
   prettier
 ];
